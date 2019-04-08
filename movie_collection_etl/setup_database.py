@@ -1,4 +1,3 @@
-
 from sqlalchemy import Column, Integer, String, Date, Float, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 
@@ -27,6 +26,3 @@ def create_database_engine():
     engine = create_engine(db_uri, echo=True)
     Base.metadata.create_all(engine)
     return engine
-
-# if __name__ == "__main__":
-#     create_database_engine()
