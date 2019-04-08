@@ -1,0 +1,11 @@
+{
+    "base_url": "https://boxofficecollection.in/",
+    "tail_url": "-box-office-collection-day-wise",
+    "movies": {
+        "Luka Chuppi": "2019-03-01",
+        "Badla": "2019-03-08",
+        "Kesari": "2019-03-21",
+        "Gully Boy": "2019-02-14",
+        "Total Dhamaal": "2019-02-22"
+    }
+}
